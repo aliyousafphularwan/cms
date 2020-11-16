@@ -1,0 +1,130 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0px auto;
+	background: #ededed;
+}
+
+a, li, textarea{
+	text-decoration: none;
+	list-style: none;
+	resize: none;
+}
+input, select{
+	padding: 10px 8px;
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 5px 0px;
+	border-radius: 5px;
+	border: solid 1px #dedede;
+}
+/*login*/
+.login-main{
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.login-details{
+	width: 50%;
+	padding: 25px;
+}
+.login-form{
+	width: 50%;
+	height: 100vh;
+	background: #d6d40c;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.login-form h1{
+	margin: 15px 0px;
+}
+
+/*dashboard*/
+.dashboard-main{
+}
+.dashboard-topbar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background: #d6d40c;
+}
+.dashboard-topbar form{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+.dashboard-topbar form input{
+	width: auto;
+	margin: 0px 5px;
+}
+.dashboard-topbar ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+.dashboard-topbar ul li{
+	margin: 5px;
+	padding: 10px;
+}
+.dashboard-topbar ul li:hover{
+	background: #ccc;
+}
+.dashboard-body{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.dashboard-links{
+	background: #254145;
+	height: 100vh;
+	width: 200px;
+	overflow: hidden;
+}
+.dashboard-links a{
+	display: block;
+	padding: 10px;
+	color: #cdcdcd;
+}
+.dashboard-links a:hover{
+	background: #fcfcfc;
+	color: #555;
+}
+.dashboard-loader{
+	width: 100%;
+	padding: 10px;
+}
+#catmit, #subcatmit{
+	background: #28abb9;
+}
+
+/*category*/
+.catForm input{
+	width: auto;
+}
+.catForm input[type=submit]{
+	background: #551144;
+	color: #fff;
+}
+.catSubForm input, .catSubForm select{
+	width: auto; 
+	display: block;
+	box-sizing: border-box;
+}
+.catSubForm input[type=submit]{
+	background: #551144;
+	color: #fff;
+}
